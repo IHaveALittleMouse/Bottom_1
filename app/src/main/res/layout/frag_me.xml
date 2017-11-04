@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#f7eef3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/head" />
+            <!--
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="70dp"-->
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="28dp"
+
+                android:layout_marginStart="28dp"
+                android:layout_toEndOf="@+id/head"
+                android:layout_toRightOf="@+id/head"
+                android:text="不淘气的小可爱"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <LinearLayout style="@style/wrap_layout">
+
+            <LinearLayout style="@style/top_layout">
+
+                <TextView
+                    style="@style/usertext"
+                    android:text="收货地址" />
+
+                <ImageView style="@style/img_arrow" />
+            </LinearLayout>
+
+            <View style="@style/bg_line" />
+
+            <LinearLayout style="@style/mid_layout">
+
+                <TextView
+                    style="@style/usertext"
+                    android:text="我的资料" />
+
+                <ImageView style="@style/img_arrow" />
+            </LinearLayout>
+
+            <View style="@style/bg_line" />
+
+            <LinearLayout style="@style/bottom_layout">
+
+                <TextView
+                    style="@style/usertext"
+                    android:text="消息通知" />
+
+                <ImageView style="@style/img_arrow" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/wrap_layout">
+
+            <LinearLayout style="@style/single_layout">
+
+                <TextView
+                    style="@style/usertext"
+                    android:text="辅助功能" />
+
+                <ImageView style="@style/img_arrow" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="#f67854"
+            android:text="退出登录"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
