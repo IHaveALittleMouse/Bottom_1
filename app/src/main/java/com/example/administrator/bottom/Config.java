@@ -5,6 +5,7 @@ import android.content.SharedPreferences.Editor;
 
 public class Config {
 
+	public String notAUpgrade="hahahahah";
 	// public static final String SERVER_URL =
 	// "http://demo.eoeschool.com/api/vi/nimings/io";
 	public static final String SERVER_URL = "http://101.132.190.102:8080/TestServer/api.jsp";
