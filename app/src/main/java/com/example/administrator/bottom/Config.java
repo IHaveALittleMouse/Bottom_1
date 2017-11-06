@@ -7,7 +7,7 @@ public class Config {
 
 	// public static final String SERVER_URL =
 	// "http://demo.eoeschool.com/api/vi/nimings/io";
-	public static final String SERVER_URL = "http://172.20.10.7:8080/TestServer/api.jsp";
+	public static final String SERVER_URL = "http://101.132.190.102:8080/TestServer/api.jsp";
 
 	public static final String KEY_TOKEN = "token";
 	public static final String KEY_ACTION = "action";
