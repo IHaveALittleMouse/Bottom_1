@@ -7,8 +7,6 @@ public class Config {
 
 
 	public static final String isThatAUpdate = "no it isn't";
-
-=======
 	public String notAUpgrade="hahahahah";
 
 	// public static final String SERVER_URL =
