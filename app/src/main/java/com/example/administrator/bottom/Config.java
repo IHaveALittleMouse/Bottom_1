@@ -6,12 +6,6 @@ import android.content.SharedPreferences.Editor;
 public class Config {
 
 
-	public static final String isThatAUpdate = "no it isn't";
-<<<<<<< HEAD
-=======
-
->>>>>>> 5a36c9c2891d7c6c2d7cf072ed73fcc1ff15bda8
-	public String notAUpgrade="hahahahah";
 
 	// public static final String SERVER_URL =
 	// "http://demo.eoeschool.com/api/vi/nimings/io";
